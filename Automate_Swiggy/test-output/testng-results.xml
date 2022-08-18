@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-31T06:15:28 GMT-04:00" name="Default suite" finished-at="2022-07-31T06:16:05 GMT-04:00" duration-ms="36116">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.SwiggyTestRunner@1283bb96]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-07-31T06:15:28 GMT-04:00" name="Default test" finished-at="2022-07-31T06:16:05 GMT-04:00" duration-ms="36116">
+      <class name="TestRunner.SwiggyTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.SwiggyTestRunner@1283bb96]" started-at="2022-07-31T06:15:28 GMT-04:00" name="setUpClass" finished-at="2022-07-31T06:15:29 GMT-04:00" duration-ms="603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d5556bf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.SwiggyTestRunner@1283bb96]" started-at="2022-07-31T06:15:29 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-31T06:15:49 GMT-04:00" duration-ms="19669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Enter Location Where you are"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Select Item From WebSite and Add it to Cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.SwiggyTestRunner@1283bb96]" started-at="2022-07-31T06:15:49 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-31T06:16:01 GMT-04:00" duration-ms="12506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User enters item to order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Select Item From WebSite and Add it to Cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.SwiggyTestRunner@1283bb96]" started-at="2022-07-31T06:16:01 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-31T06:16:04 GMT-04:00" duration-ms="3137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check item is added in cart or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Select Item From WebSite and Add it to Cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.SwiggyTestRunner@1283bb96]" started-at="2022-07-31T06:16:04 GMT-04:00" name="tearDownClass" finished-at="2022-07-31T06:16:05 GMT-04:00" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.SwiggyTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
